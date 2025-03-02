@@ -8,7 +8,7 @@ const Navbar = () => {
     const [showMenu , setShowMenu] = React.useState(false);
     const [token, setToken] = React.useState(true);
     return (
-        <div className='flex items-center justify-between text-sm py-4 mb- border-b border-b-gray-400'>
+        <div className='flex items-center justify-between text-sm py-4 mb-4 border-b border-b-gray-400'>
             <img className='w-44 cursor-pointer' src={assets.logo} alt="Logo for prescripto"/>
             <ul className='hidden md:flex items-start gap-5 font-medium'>
                 <NavLink to='/'>
@@ -17,15 +17,15 @@ const Navbar = () => {
                 </NavLink>
                 <NavLink to='/doctors'>
                     <li className='py-1'>ALL DOCTORS</li>
-                    <hr className='border-none outline-none h-0.5 bg-[#5f6fff] w-3/5 m-auto hidden'/>
+                    <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden'/>
                 </NavLink>
                 <NavLink to='/about'>
                     <li className='py-1'>ABOUT</li>
-                    <hr className='border-none outline-none h-0.5 bg-[#5f6fff] w-3/5 m-auto hidden'/>
+                    <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden'/>
                 </NavLink>
                 <NavLink to='/contact'>
                     <li className='py-1'>CONTACT</li>
-                    <hr className='border-none outline-none h-0.5 bg-[#5f6fff] w-3/5 m-auto hidden'/>
+                    <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden'/>
                 </NavLink>
             </ul>
             <div className='flex items-center gap-4'>
@@ -42,7 +42,7 @@ const Navbar = () => {
                                </div>
                             </div>
                         </div>
-                        :  <button onClick={()=>navigate('/login')} className='bg-[#5f6fff] text-white rounded-full cursor-pointer px-6 py-3 font-light hidden md:block'>Create account</button>
+                        :  <button onClick={()=>navigate('/login')} className='bg-primary text-white rounded-full cursor-pointer px-6 py-3 font-light hidden md:block'>Create account</button>
 
                 }
 
