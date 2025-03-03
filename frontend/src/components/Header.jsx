@@ -8,7 +8,7 @@ const Header = () => {
       {/*    ---Right side---*/}
 
           <div className='md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]'>
-             <p className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight lg:leading-tight'>Book appointments <br/> with Trusted Doctors</p>
+             <p className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight md:leading-tight  lg:leading-tight'>Book appointments <br/> with Trusted Doctors</p>
               <div className='flex flex-col md:flex-row items-center gap-3 text-white tex-sm font-light'>
                   <img className='w-28' src={assets.group_profiles} alt="Group Profiles" />
                   <p>Simply browse through our extensive list of trusted doctors,
