@@ -15,8 +15,9 @@ all links to the assigned property .
 ## Doctors 
 
 The doctors page include a list of all available doctors and can be 
-filtered by speciality , with a navigation filter that is repsonsive 
-only functions that were introduced , were filtering the linking part from react-router-dom 
+filtered by speciality , with a navigation filter that is responsive. 
+only functions that were introduced  were filtering that links to the appropriate appointment filtered 
+through the doctor's ID . 
 
 N.B : Everything was tested on dummy data . 
 
