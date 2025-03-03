@@ -2,6 +2,21 @@
 
 ## Home 
 
-Home page includes all the necessary information about
-the hospital  , call to action doctor information and mostly all links
-to the rest of the pages 
+Home page includes all the necessary information , and they are mentioned by the few :
+
+- Speciality menu 
+- All top doctors 
+- The call to action Banner 
+- And lastly the footer 
+
+All mentioned parts of the home are created as components , and they contain 
+all links to the assigned property . 
+
+## Doctors 
+
+The doctors page include a list of all available doctors and can be 
+filtered by speciality , with a navigation filter that is repsonsive 
+only functions that were introduced , were filtering the linking part from react-router-dom 
+
+N.B : Everything was tested on dummy data . 
+
