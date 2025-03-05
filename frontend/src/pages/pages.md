@@ -30,3 +30,28 @@ This page contains all the necessary features to make an appointment , the featu
 - `Book slots` , time available from day to time this pertains to every doctor . and this time reflects from the current date stretching seven day's in the week .
 
 Last but not least the `related doctor's` with the same speciality . this improves the situation where you can directly switch to another doctor , without extra previous navigations .
+
+
+## About 
+
+Implemented the about us page that contains all the information 
+about the hospital , this spans from the idea of 
+
+- `vision`
+- `Other miscellaneous statements` 
+
+## contact 
+
+The contact page illustrates all the lines of communication from 
+emails to contact phones and suprisingly also calls for exploring 
+`jobs` available in the hospital 
+
+## Login / Sign Up 
+
+The login page contains to different states , namely by the few 
+
+- `Sign Up page` 
+- `Login page` 
+
+N.B : All of them on the same page , it's only the matter of setting the 
+state to either in login or sign up mode but the page is single
