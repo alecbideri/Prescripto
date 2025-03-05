@@ -55,3 +55,15 @@ The login page contains to different states , namely by the few
 
 N.B : All of them on the same page , it's only the matter of setting the 
 state to either in login or sign up mode but the page is single
+
+## Profile page
+
+The profile contains basically few information including and not limited 
+to : 
+
+- `Contact information`
+- `Basic information such as {Gender and Date of birth}`
+
+N.B : Every information displayed or being used at the front-end is dummy data 
+from the created object 
+
