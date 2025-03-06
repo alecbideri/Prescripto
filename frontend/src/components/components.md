@@ -10,6 +10,11 @@ account creation and this toggles other links to other pages including and not l
 - `Users appointment page`
 - `Logout option`
 
+### Mobile menu
+
+Added a mobile menu that it is available on `mobile` view, and it is repsonsive 
+contains all necessary links and a creating account button .
+
 ## Header section
 
 The header component all necessary call to action features , a book appointment button ,
@@ -37,3 +42,5 @@ The footer , direclty links you to some essential `communication` links and esse
 ## Related doctors
 
 This component , checks and verifies the `speciality` of the rest of the doctor's and removes the one in selection to be selected again using the `doc id's` .
+
+

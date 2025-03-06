@@ -19,6 +19,12 @@ filtered by `speciality` , with a navigation filter that is responsive.
 only functions that were introduced were `filtering` that links to the appropriate appointment filtered
 through the `doctor's ID` .
 
+### Filter on mobile
+
+On mobile there is an action button to show or hide the filtering options
+of the specialities available, implementation came late but seamlessly the create
+beautiful appealing look .
+
 N.B : Everything was tested on `dummy data `. available in the assets , front-end and `assets.js file` .
 
 ## Appointment
@@ -31,39 +37,46 @@ This page contains all the necessary features to make an appointment , the featu
 
 Last but not least the `related doctor's` with the same speciality . this improves the situation where you can directly switch to another doctor , without extra previous navigations .
 
+## About
 
-## About 
-
-Implemented the about us page that contains all the information 
-about the hospital , this spans from the idea of 
+Implemented the about us page that contains all the information
+about the hospital , this spans from the idea of
 
 - `vision`
-- `Other miscellaneous statements` 
+- `Other miscellaneous statements`
 
-## contact 
+## contact
 
-The contact page illustrates all the lines of communication from 
-emails to contact phones and suprisingly also calls for exploring 
-`jobs` available in the hospital 
+The contact page illustrates all the lines of communication from
+emails to contact phones and suprisingly also calls for exploring
+`jobs` available in the hospital
 
-## Login / Sign Up 
+## Login / Sign Up
 
-The login page contains to different states , namely by the few 
+The login page contains to different states , namely by the few
 
-- `Sign Up page` 
-- `Login page` 
+- `Sign Up page`
+- `Login page`
 
-N.B : All of them on the same page , it's only the matter of setting the 
+N.B : All of them on the same page , it's only the matter of setting the
 state to either in login or sign up mode but the page is single
 
 ## Profile page
 
-The profile contains basically few information including and not limited 
-to : 
+The profile contains basically few information including and not limited
+to :
 
 - `Contact information`
 - `Basic information such as {Gender and Date of birth}`
 
-N.B : Every information displayed or being used at the front-end is dummy data 
-from the created object 
+N.B : Every information displayed or being used at the front-end is dummy data
+from the created object
 
+## My appointment page
+
+This page has list of all appointments made by a user , and it is where
+all the buttons to make an payment actions are found and can be accessed
+to either :
+
+- `Cancel payment`
+- `or make the payment`

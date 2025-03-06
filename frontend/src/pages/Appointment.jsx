@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { useParams } from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 import { AppContext } from "../context/AppContext.jsx";
 import { BadgeCheck, Info } from "lucide-react";
 import RelatedDoctors from "../components/RelatedDoctors.jsx";
@@ -9,6 +9,7 @@ const Appointment = () => {
     const { docId } = useParams();
     const { doctors } = useContext(AppContext);
     const daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THUR', 'FRI', 'SAT']
+    const navigate = useNavigate();
 
     const [docInfo, setDocInfo] = useState(null);
     const [docSlots, setDocSlots] = useState([]);
@@ -127,7 +128,7 @@ const Appointment = () => {
                         </p>
                     ))}
                 </div>
-                <button className='bg-primary px-14 py-3 text-white rounded-full cursor-pointer mt-6 text-sm font-light'>Book an appointment</button>
+                <button onClick={()=>navigate('/my-appointment')} className='bg-primary px-14 py-3 text-white rounded-full cursor-pointer mt-6 text-sm font-light'>Book an appointment</button>
             </div>
             {/*    --- Listing related doctors ---- */}
 
